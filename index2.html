@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Формы</title>
+    <style>
+        th {width: 320px;}
+        .blue-but {color: #0d51ff;
+                   font-weight: 700;}
+    </style>
+</head>
+<body>
+    <div>
+        <h1>ЗАО Птицефабрика №1</h1>
+        <form>
+        <table class="form1">
+            <tr>
+                <th align="right">
+                    Фамилия
+                </th>
+                <th align="left">
+                    <input type="text">
+                </th>
+            </tr>
+            <tr>
+                <th align="right">
+                    Инициалы
+                </th>
+                <th align="left">
+                    <input type="text">
+                </th>
+            </tr>
+            <tr>
+                <th align="right">
+                    Пароль
+                </th>
+                <th align="left">
+                    <input type="password">
+                </th>
+            </tr>
+            <tr>
+                <th align="right">
+                    Адрес получателя
+                </th>
+                <th align="left">
+                    <input type="text">
+                </th>
+            </tr>
+            <tr>
+                <th align="right">
+                    Количество
+                </th>
+                <th align="left">
+                    <input type="text">
+                </th>
+            </tr>
+            <tr>
+                <th align="right">
+                    Тип
+                </th>
+                <th align="left">
+                    <select name="meat">
+                        <option value="1">Куриные</option>
+                    </select>
+                    <select name="type">
+                        <option value="1">Отборные</option>
+                    </select>
+                </th>
+            </tr>
+            <tr>
+                <th align="right">
+                    Доставка
+                </th>
+                <th align="left">
+                    <input type="radio"> Почтой <input type="radio"> Электронно <input type="radio"> Курьером 
+                </th>
+            </tr>
+            <tr>
+                <th align="right">
+                    Требуется накладная
+                </th>
+                <th align="left">
+                    <input type="checkbox">
+                </th>
+            </tr>
+            <tr>
+                <th align="right">
+                    Дополнительная информация
+                </th>
+                <th align="left">
+                    <textarea></textarea>
+                </th>
+            </tr>
+            <tr>
+                <th align="right">
+                    <input type="submit" value="Отправить">
+                </th>
+                <th align="left">
+                    <input type="reset" value="Отменить">
+                </th>
+            </tr>
+        </table>
+        
+        </form>
+    </div>
+    
+    <div>
+        <form>
+            <h1>Пример формы регистрации сайта</h1>
+            Логин:<br> <input type="text"><br>
+            Пароль:<br> <input type="password" value="testtest"><br>
+            URL-адрес сайта:<br> <input type="text" value="http://"><br>
+            Название сайта:<br> <input type="text"><br>
+            Описание сайта:<br> <textarea></textarea><br>
+            Тема сайта:<br> <select><option value="0">Тема не выбрана</option></select><br>
+            Баннер 88x31:<br><input type="file"><br><br>
+            <input class="blue-but" type="reset" value="Очистить"><input class="blue-but" type="submit" value="Отправить">
+        </form>
+    </div>
+</body>
+</html>
